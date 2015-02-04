@@ -29,12 +29,12 @@ $("document").ready( function(){
 });
 </script>
 <header>
-	<h1>Artwork Techniques</h1> 
+	<h1>Gallery</h1> 
 	</header>
 	<nav id="navigation" role="navigation">
 		<ul>
 			<li><a href="index.html">Home</a></li>
-			<li><a href="#">About us</a></li>
+			<li><a href="javascript-concepts.html">JavaScript Concepts</a></li>
 			<li><a href="gallery.html">Gallery</a></li>
 			<li><a href="#">FAQ</a></li>
 			<li><a href="#">html5 Forms</a></li>  
@@ -54,6 +54,15 @@ $("document").ready( function(){
             <li rel="oil">oil</li>
     	</ul>
         <div id="drawing" class="panel"> 
+            
+            <!-- javascript within the html -->
+            <script type="text/javascript">
+                //make a for loop to audimate the img tags
+                for(var i = 0; i < 50; i++ ){
+                    console.log("the loop has run for... " + i + " time(s)");
+                }
+            </script>
+            
         	<img src="images/drawing/thumbs/artwork_1.jpg" />
             <img src="images/drawing/thumbs/artwork_2.jpg" />
             <img src="images/drawing/thumbs/artwork_3.jpg" />
